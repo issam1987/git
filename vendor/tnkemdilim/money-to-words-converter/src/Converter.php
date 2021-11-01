@@ -233,9 +233,9 @@ class Converter
         $sentence = trim($whole . $decimal);
 
         if ($sentence == "") return $sentence;
-        if ($this->_translationIsEnglish()) return "{$sentence} only";
+        if ($this->_translationIsEnglish()) return "{$sentence} ";
 
-        $only = $this->translator->translate('only');
+        $only ='';
         return $this->translator->translate("{$sentence} {$only}");
     }
 
