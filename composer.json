@@ -1,0 +1,5 @@
+{
+    "require": {
+        "tnkemdilim/money-to-words-converter": "^2.1"
+    }
+}
